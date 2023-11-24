@@ -1,0 +1,5 @@
+userInput = input("Enter a string of comma sep numbrs: ")
+userInput = userInput.split(",")
+tuple = tuple(userInput)
+print('List : ',userInput)
+print('Tuple : ',tuple)
